@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "/*": {
+      "X-Author": "avgustinivt",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Access-Control-Allow-Origin": "*"
+    }
+ }
+
+  function task(x) {
+    this = 3;
+    return x*this*this;
+  }
+  
+}
