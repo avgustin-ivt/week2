@@ -7,9 +7,6 @@
     }
  }
 
-  function task(x) {
-    this = 3;
-    return x*this*this;
-  }
+
   
 }
