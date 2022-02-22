@@ -1,12 +1,20 @@
 {
+  "encoding": "UTF-8",
   "headers": {
     "/*": {
-      "X-Author": "avgustinivt",
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/html; charset=UTF-8",
+      "X-Reply": "openedu"
+    },
+    "/sample/*": {
+      "Access-Control-Allow-Origin": "*",
       "Content-Type": "text/plain; charset=UTF-8",
-      "Access-Control-Allow-Origin": "*"
-    }
- }
-
-
-  
+      "X-Reply": "openedu"
+    },
+    "/login/*": {
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "X-Reply": "openedu"
+    }    
+  }    
 }
